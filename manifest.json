@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "PromptHistory",
+    "version": "1.0",
+    "description": "Dumps your prompts to browser console",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.chatgpt.com/*"
+            ],
+            "js": [
+                "promptHistory.js"
+            ]
+        }
+    ]
+}
