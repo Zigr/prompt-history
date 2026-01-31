@@ -1,4 +1,4 @@
-const tocSelector = ".bg-token-message-surface";
+const tocSelector = ".user-message-bubble-color";
 let toc = [];
 
 const getToc = () => {
