@@ -1,2 +1,2 @@
 # prompt-history
-Dumps your prompts to browser console from ChatGPT interface.
+Dumps TOC of your prompts to browser console from ChatGPT interface.
